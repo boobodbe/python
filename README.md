@@ -1,5 +1,5 @@
 ### 说明文档  
-| test.py | 用来测试仓库，没有实际意义，哈哈 |  
+| test.py | 测试，输出hello world |  
 | :----: | :----: |  
 | student_system.py | 生信息管理系统python源文件 |  
 | student_system.exe | 学生信息管理系统Windows可执行文件 |  

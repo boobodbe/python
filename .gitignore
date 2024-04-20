@@ -12,3 +12,8 @@
 
 # 忽略 访烟 下载的csv文件
 *.csv
+
+.vscode
+./.vscode/*
+
+.gitignore

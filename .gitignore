@@ -17,3 +17,5 @@
 ./.vscode/*
 
 .gitignore
+
+auto_push.py

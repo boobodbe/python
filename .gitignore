@@ -1,21 +1,21 @@
-# log 不需要提交 后缀名为log的文件
-*.log
+# 忽略所有文件
+#*
 
-# exe 不需要提交 c/cpp 生成的可执行文件
-*.exe
-*.apk
+# 允许以下文件类型
+!*.c
+!*.cpp
+!*.py
+!*.txt
+!*.md
+!*.png
+!.gitignore
 
-# 忽略JB软件生成的.idea文件夹
-./*/.idea
-./*/.idea/*
+# 允许特定文件夹
+!assets/
 
-
-# 忽略 访烟 下载的csv文件
-*.csv
-
-.vscode
-./.vscode/*
-
-.gitignore
-
+#忽略一些特定文件
 auto_push.py
+*.exe
+
+#忽略一些特定文件夹
+.vscode

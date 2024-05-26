@@ -2,16 +2,16 @@
 #*
 
 # 允许以下文件类型
-!*.c
-!*.cpp
-!*.py
-!*.txt
-!*.md
-!*.png
-!.gitignore
+# !*.c
+# !*.cpp
+# !*.py
+# !*.txt
+# !*.md
+# !*.png
+# !.gitignore
 
 # 允许特定文件夹
-!assets/
+# !assets/
 
 #忽略一些特定文件
 auto_push.py

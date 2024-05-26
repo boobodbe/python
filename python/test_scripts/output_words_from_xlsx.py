@@ -23,7 +23,12 @@ def get_riji():
             info = str(row['kk']).replace("<<", "\t").replace(">>", "\n")
             # print(info, type(info))
             # break
-            f.write(f"{date} ---- {week}\n{info}\n")
+            # f.write(f"{date} ---- {week}\n{info}\n")
+            f.write("*"*50)
+            f.write("\n")
+            f.write(f"{date} ---- {week}\n{info}")
+            f.write("*"*50)
+            f.write("\n\n")
 
 while True:
     do_what = input("输入你要干嘛\n输出不会的单词，请按1\n输出日记，请按2\n退出请按0\n等待您的输入：")

@@ -18,16 +18,21 @@
         reg add “HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsUpdate\UX\Settings” /v FlightSettingsMaxPauseDays /t reg_dword /d 3000 /f
         ```
 
-- 浏览器
-  - 百分浏览器（推荐）----  添加时间：2023-12-13
+- 自用软件列表：https://docs.qq.com/sheet/DR2lSS1djZ3BUS0JB?tab=BB08J2
 
+- 浏览器
+  
+  - 百分浏览器（推荐）----  添加时间：2023-12-13
+  
     - 官方网站：https://www.centbrowser.cn/
+  
 - 压缩/解压缩软件
 
   - 7-zip
     - 官方网站：https://7-zip.org/download.html
   - bandizip
     - 官方网站：https://www.bandisoft.com/bandizip/
+  
 - windows系统优化设置
   - 卸载软件--geek
   - 官方网站：https://geekuninstaller.com/download
@@ -51,6 +56,7 @@
       -   蓝奏云：https://wwsx.lanzouu.com/i6iu91jufnuj  密码:0000
   - 飘云阁dll修复
       - 蓝奏云：https://www.lanzouw.com/iRCns1scrc3e
+  
 - 音视频播放器
 
   - mpv -- 极简音视频播放
@@ -63,6 +69,7 @@
     - 下载：http://potplayer.tv/?lang=zh_CN
     - 国内网址：http://www.potplayercn.com/download
     - 官网：https://potplayer.daum.net/ 
+  
 - 截图/OCR软件
 
   - PixPin -- 支持长截图和OCR
@@ -76,6 +83,7 @@
     - 官网：https://github.com/hiroi-sora/Umi-OCR/releases/tag/release/2.0.1
 
     - 蓝奏云：https://hiroi-sora.lanzoul.com/s/umi-ocr
+  
 - 文本编辑器
 
   - Typora -- markdown文档编辑器
@@ -103,6 +111,7 @@
       - 蓝奏云：https://www.lanzouw.com/iTzOx1scr87e
   - 几何画板5.06.exe
       - 蓝奏云：https://www.lanzouw.com/iPEFw1scrayd
+  
 - 文档阅读、图片查看
   - 稻壳阅读器 DocBox 绿色版 支持多种格式的文档阅读
       - 蓝奏云：https://wwsx.lanzouu.com/ixoZ61gq3d1g  密码:0000
@@ -112,6 +121,7 @@
     - 蓝奏云：https://wwsx.lanzouu.com/iYb1b15iyuyd
   - Universal Viewer
       - 官网：http://www.uvviewsoft.com/uviewer/
+  
 - 下载器 -- 加速下载
 
   - IDM -- 超强下载器
@@ -125,6 +135,7 @@
       - 蓝奏云：https://www.lanzouw.com/iNBYI1scgnub
   - B站视频下载工具  DownKyi-1.5.9
     - 百度云盘：https://pan.baidu.com/s/1HEeLwwL6-v93Uye2s_VNIg?pwd=0000   提取码: 0000 
+  
 - 编译器、解释器
   - MinGW -- c/c++编译器
       - 官方网址：https://www.mingw-w64.org/downloads/
@@ -142,6 +153,7 @@
       - 官方网站：https://git-scm.com/downloads
 
       - 清华大学镜像站：https://mirrors.tuna.tsinghua.edu.cn/
+  
 - 虚拟机
 
   - VMware 
@@ -149,6 +161,7 @@
 
   - Virtual Box -- 免费
     - 官网：https://www.virtualbox.org/wiki/Downloads
+  
 - office办公软件
 
   - WPS破解版
@@ -162,31 +175,43 @@
 
   - Heu_Kms 激活Windows和office
       - 蓝奏云：https://wwsx.lanzouu.com/iVNKQ1lss0gf
+  
 - Listary -- 文件搜索、应用启动快捷工具
 
   - 官方网站：https://www.listary.com/download
+  
 - 电脑剪切板增强工具 -- Ditto
     - 官方网站：https://ditto-cp.sourceforge.io/
+    
 - FileGee -- 多端文件同步工具 -- 支持同步到百度网盘 -- 免费版就够用
 
     - 官方网站：https://cn.filegee.com/download.html
+    
 - ToDesk -- 远程桌面控制
   - 官网：https://www.todesk.com/download.html
+  
 - 电子书格式转化 -- pdg、uvz等格式转为pdf  –图书需要的工具
   - 蓝奏云：https://wwsx.lanzouu.com/igJOB1da2rla
+  
 - BitWarden -- 密码管理器
   - 官网：https://bitwarden.com/pricing/
+  
 - Pointofix – 屏幕标记工具
   - 官网：https://www.pointofix.de/download.php
+  
 - 批量修改文件名
     - 蓝奏云：https://wwsx.lanzouu.com/ikKdp1lssiob
+    
 - BaiduPCS-Go-百度网盘命令行
     - gitee：https://gitee.com/morphyhu/BaiduPCS-Go
     - 蓝奏云：https://www.lanzouw.com/i1RrX1scgk2f
+    
 - Bandicam v5.3.3.1895 x64 中文pj便携版-录屏
     - 蓝奏云：https://www.lanzouw.com/iz8us1scglfe
+    
 - validrive-u盘检测工具.exe
     - 蓝奏云：https://www.lanzouw.com/i3j0V1scgo4b
+    
 - WizTree – 文件结构
     - 官网：https://diskanalyzer.com/download
 

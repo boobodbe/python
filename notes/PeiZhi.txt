@@ -3,3 +3,7 @@
 2. 按顺序找到 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Command Processor
 3. 点击右键 - 新建，选择 “字符串值”
 4. 命名为 “autorun”, 点击右击修改，数值数据填写 “chcp 65001”，确定
+
+
+配置python的虚拟环境：
+pycharm和vscode都可以配置，如果vscode中出现配置以后无法执行，记得用管理员方式打开powershell然后输入：set-ExecutionPolicy RemoteSigned，然后Y，即可使用。

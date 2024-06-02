@@ -16,6 +16,7 @@
 #忽略一些特定文件
 auto_push.py
 *.exe
+tmp.txt
 
 #忽略一些特定文件夹
 .vscode

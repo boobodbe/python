@@ -14,8 +14,9 @@ def get_words():
 
 def get_riji():
     # 读取Excel文件中名为"april"的工作表
-    df = pd.read_excel('plan.xlsx', sheet_name='april')
-    with open('riji.txt', 'w') as f:
+    # df = pd.read_excel('plan.xlsx', sheet_name='april')
+    df = pd.read_excel('diary.xlsx', sheet_name='2024')
+    with open('2024.txt', 'w') as f:
         for index, row in df.iterrows():
             date = row['日期'].strftime('%Y-%m-%d')
             # print(date, type(date))

@@ -1,5 +1,5 @@
-import tkinter
-from tkinter import filedialog
+#import tkinter
+#from tkinter import filedialog
 import csv
 import os
  
@@ -8,7 +8,7 @@ def smoke_sort(path):
     # 用来对csv文件按照某一列升序排序
     # 这个函数是用来输出详细数据
     # 打开CSV文件
-    file_name = path.split('\\\\')[-1]
+    file_name = path.split('\\')[-1]
     # with open('D:\\temp\\{}'.format(path), 'r', encoding='gbk') as file:
     with open(path, 'r', encoding='gbk') as file:
         # 创建CSV读取器对象
@@ -47,6 +47,7 @@ def smoke_sort(path):
     # print("{}号 -- {}条 -- {:.2f}".format(path[6:8], smoke_num, money))
     # print("{}号 -- {}条 -- {:.2f}".format(path[6:8], smoke_num, money))
     # print("{}号 -- {}条 -- {:.2f}".format(file_name[6:8], smoke_num, money))
+        print("{}号 -- {}条 -- {:.2f}\n".format(file_name[6:8], smoke_num, money))
         f.write("{}号 -- {}条 -- {:.2f}\n".format(file_name[6:8], smoke_num, money))
 
     # 打印列表里面的数据
@@ -71,8 +72,10 @@ def smoke_sort(path):
     # print("已经删除原文件：",path)
 
 
+# 2024年8月18号修改，删除选择文件的图形化界面
+"""
 root = tkinter.Tk()
- 
+
 root.title('路径选择')
 max_w, max_h = root.maxsize()
 root.geometry(f'500x300+{int((max_w - 500) / 2)}+{int((max_h - 300) / 2)}')  # 居中显示
@@ -86,10 +89,10 @@ label.place(x=50, y=100)
 entry_text = tkinter.StringVar()
 entry = tkinter.Entry(root, textvariable=entry_text, font=('FangSong', 10), width=30, state='readonly')
 entry.place(x=150, y=105)
- 
+
 # 按钮控件
 def get_path():
-    """注意，以下列出的方法都是返回字符串而不是数据流"""
+    # 注意以下列出的方法都是返回字符串而不是数据流
     # 返回一个字符串，且只能获取文件夹路径，不能获取文件的路径。
     # path = filedialog.askdirectory(title='请选择一个目录')
  
@@ -105,14 +108,31 @@ def get_path():
     csv_file = path.replace('/', '\\\\')  # 拿到文件路径
     # print(csv_file, type(csv_file), csv_file.split('\\\\')[-1])  # D:\\temp\\20240313113955.csv <class 'str'> 20240313113955.csv
     smoke_sort(csv_file)
- 
+
+
 button = tkinter.Button(root, text='选择路径', command=get_path)
 button.place(x=400, y=95)
 
 root.mainloop()
+"""
 
 # os.system('pause')
 # input('Press <Enter>')
+
+def get_csv_files(path):
+    csv_files = []
+    for root, dirs, files in os.walk(path):
+        for file in files:
+            if file.endswith(".csv"):
+                csv_files.append(os.path.join(root, file))
+    return csv_files
+
+d_drive_temp_folder = "D:\\temp"
+csv_files_paths = get_csv_files(d_drive_temp_folder)
+for i in csv_files_paths:
+    smoke_sort(i)
+    break
+
 os.system(f'start {"smoke.txt"}')
 os.system('pause')
 os.remove("smoke.txt")

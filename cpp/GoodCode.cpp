@@ -3,8 +3,15 @@
 // 求最大公因数
 int gcd(int x, int y){return y ? gcd(y, x%y) : x;}
 
+int add(int x, int y)
+{
+	return x + y;
+}
+
 int main(){
-	int num = gcd(12, 18);
-	printf("%d\n", num);
-	printf("试着用git编译一下c源文件试试可行不。\n");
+	int num = gcd(27, 18);
+	printf("gcd(27, 18) = %d\n", num);
+    printf("Hello World!\n");
+	printf("add(3, 4) = %d\n", add(3, 4));
+	return 0;
 }

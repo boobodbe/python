@@ -1,22 +1,6 @@
-# 忽略所有文件
-#*
-
-# 允许以下文件类型
-# !*.c
-# !*.cpp
-# !*.py
-# !*.txt
-# !*.md
-# !*.png
-# !.gitignore
-
-# 允许特定文件夹
-# !assets/
-
-#忽略一些特定文件
-auto_push.py
 *.exe
-tmp.txt
+.gitignore
+auto_push.py
 
-#忽略一些特定文件夹
+.git
 .vscode

@@ -3,6 +3,5 @@ print("Hello world.\n")
 flag = 1
 while flag:
 	i = int(input("please input a num:"))
-	print(i)
 	if i == 0:
 		flag = i
